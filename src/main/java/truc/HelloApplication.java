@@ -77,6 +77,7 @@ public class HelloApplication extends Application {
 
         // Displays everyone
         stage.setScene(scene);
+        stage.setResizable(false);
         stage.show();
     }
 
